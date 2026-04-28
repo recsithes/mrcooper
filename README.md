@@ -1,4 +1,4 @@
-# Hospital Appointment System (UC-009)
+# Hospital Appointment System 
 
 ## Problem statement
 Build a hospital appointment system to handle:
@@ -7,7 +7,7 @@ Build a hospital appointment system to handle:
 - Appointment booking, cancellation, and rescheduling
 - Consultation completion and medical history update
 
-The implementation should follow UC-009 flows and business rules from the statement, including:
+The implementation should follow flows and business rules from the statement, including:
 - Unique patient and appointment IDs
 - Slot-based booking with double-booking prevention
 - Suggesting next available date when preferred date has no slots
@@ -37,13 +37,15 @@ Core logic:
 7. On completion, mark appointment completed and append consultation to medical history.
 
 ## Steps to execute the code
-1. Open terminal in the project folder:
-   `c:\Users\sithe\OneDrive\Desktop\mrcooper`
-2. Compile:
+1. Clone the repo
+   `git clone https://github.com/recsithes/mrcooper.git`
+2. Navigate to the Project Directory
+   `cd mrcooper`
+4. Compile:
    `javac *.java`
-3. Run:
+5. Run:
    `java Main`
-4. Use the menu options shown in the console:
+6. Use the menu options shown in the console:
    - Register patient
    - View doctors/slots
    - Book/cancel/reschedule/complete appointments
